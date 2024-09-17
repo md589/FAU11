@@ -1,0 +1,28 @@
+Make directory/folder
+ - mkdir [folder/directory name]
+
+Remove directory/folder
+ - rmdir [folder/directory name]
+
+Print present working directory
+ - pwd
+
+List of all files and folder
+ - ls
+
+Clear the terminal
+clear
+
+Change directory:
+
+cd ["name of folder"] change to this folder
+cd [Changing to the home directory]
+cd .. [going one up directory]
+
+Create a files
+touch [filename.extension]
+
+Delete a file
+ - rm [filename.extension]
+
+ 
