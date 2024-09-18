@@ -1,14 +1,14 @@
-1. Configuring git:
+Configuring git:
 git config global user.name "username"
 git config user.name
 
 git config global user.email "email"
 git config user.email
 
-2. Check the status of the files and folder
+Check the status of the files and folder
 git status
 
-3. Git three stage architecture
+Git three stage architecture
 
 1. Working area (Project folder) FAU11
 2. Staging area
@@ -18,7 +18,25 @@ git add .
 - create a Commit
 git commit -m "description" 
 
-4. Check the history:
+Check the history:
 git log
 git log --oneline
+
+Rename / Change the description
+git commit --amend -m "description"
+
+Create a new repository
+git init 
+
+==Branching==
+
+List all available branch
+git branch -a (list of all files)
+
+Create a new branch
+git branch (branch-name)
+
+Switch into branch
+git checkout (branch-name) (old version)
+git switch (branch-name) (new version)
 
