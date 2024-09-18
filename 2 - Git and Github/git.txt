@@ -40,3 +40,10 @@ Switch into branch
 git checkout (branch-name) (old version)
 git switch (branch-name) (new version)
 
+ Merging
+
+Merge a branch to a current branch
+ git merge [branch-name]
+
+Delete a branch
+git branch -d [branch-name]
