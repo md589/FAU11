@@ -25,4 +25,10 @@ touch [filename.extension]
 Delete a file
  - rm [filename.extension]
 
- 
+ Merging
+
+Merge a branch to a current branch
+ git merge [branch-name]
+
+Delete a branch
+git branch -d [branch-name]
